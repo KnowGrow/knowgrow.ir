@@ -1,5 +1,5 @@
 const base = {
-  name: 'Gatsby Starter Kit',
+  name: 'KnowGrow',
   url: 'https://github.com/greglobinski/gatsby-starter-kit'
 };
 
