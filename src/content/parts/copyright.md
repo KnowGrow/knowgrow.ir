@@ -2,4 +2,4 @@
 name: copyrightNote
 ---
 
-Copyright 2018 greg lobinski
+تمامی حقوق توسط محمد حسینی محفوظ است. ۱۳۹۸

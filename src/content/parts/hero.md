@@ -2,6 +2,6 @@
 name: hero
 ---
 
-It's a series of starters for GatsbyJS: Minimal, Equipped, Themed, Website and Blog. It's 5 in 1!
+درباره کاشت و رویش گیاهان بیشتر بدانید.
 
 [more](./content)
