@@ -1,11 +1,11 @@
 const base = {
-  name: 'KnowGrow',
+  name: 'دانش رشد گیاهان',
   url: 'https://github.com/greglobinski/gatsby-starter-kit'
 };
 
 const config = {
   /* meta tags */
-  siteTitle: `${base.name} - a series of GatsbyJS starters`,
+  siteTitle: `${base.name} - مقالاتی درباره گیاهان`,
   siteTitlePostfix: ` - ${base.name}`,
   siteDescription: `${
     base.name
@@ -15,7 +15,7 @@ const config = {
 
   /* site header */
   headerTitle: `${base.name}`,
-  headerSubTitle: 'a series of starters for GatsbyJS',
+  headerSubTitle: 'مقالاتی درباره گیاهان',
 
   /* url */
   siteUrl: base.url

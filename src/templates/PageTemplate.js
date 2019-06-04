@@ -53,7 +53,7 @@ const PageTemplate = props => {
     <React.Fragment>
       {layoutStyle && (
         <Sidebar
-          title="Table of content"
+          title="فهرست"
           pages={pages}
           categoryList={categoryList}
           pathname={slug}
