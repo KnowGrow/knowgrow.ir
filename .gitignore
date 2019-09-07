@@ -56,14 +56,15 @@ typings/
 
 # dotenv environment variables file
 .env
-.env.development
-.env.production
+.env.*
 
 .cache/
 public
+results
 yarn-error.log
-
-
+.idea
 .vscode
-yarn.lock
-yarn.lock
+
+cypress/e2e/build
+
+.DS_Store
