@@ -1,6 +1,5 @@
 module.exports = {
   plugins: [
-    `gatsby-mdx`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -16,5 +15,6 @@ module.exports = {
       },
     },
     `gatsby-transformer-json`,
+    `gatsby-plugin-mdx`,
   ],
 }
