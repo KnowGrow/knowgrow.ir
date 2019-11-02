@@ -14,7 +14,7 @@ module.exports = {
         name: `blog`,
       },
     },
-    `gatsby-transformer-json`,
     `gatsby-plugin-mdx`,
+    `gatsby-transformer-json`,
   ],
 }
