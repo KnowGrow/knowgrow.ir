@@ -1,8 +1,8 @@
 {
-  "name": "using-i18n",
+  "name": "knowgrow",
   "private": true,
-  "description": "Gatsby example site using MDX and dependency-free i18n",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "description": "KnowGrow is a knowledge database about agriculture.",
+  "author": "Mohammad Hosseini <animageon@gmail.com>",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -18,7 +18,6 @@
   "devDependencies": {
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",
-    "@mdx-js/tag": "^0.20.3",
     "gatsby-plugin-mdx": "^1.0.55",
     "gatsby-source-filesystem": "^2.1.35",
     "gatsby-transformer-json": "^2.2.16"
