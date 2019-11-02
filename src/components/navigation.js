@@ -16,7 +16,7 @@ const Navigation = () => {
           English
         </Link>
         {` `}/{` `}
-        <Link to="/de" hrefLang="de">
+        <Link to="/fa" hrefLang="fa">
           Deutsch
         </Link>
       </div>
