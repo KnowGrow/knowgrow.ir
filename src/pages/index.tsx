@@ -7,7 +7,15 @@ const Index = ({ data: { allMdx } }) => {
   // useTranslations is aware of the global context (and therefore also "locale")
   // so it'll automatically give back the right translations
   const { hello, subline } = useTranslations()
-
+  const GridContainer = ({ post }) => {
+    return (
+      <li key={`${post.frontmatter.title}-${post.fields.locale}`}>
+        <LocalizedLink to={`/${post.parent.relativeDirectory}`}>
+          {post.frontmatter.title}
+        </LocalizedLink>
+        <div>{post.frontmatter.date}</div>
+      </li>)
+  }
   return (
     <>
       <h1>{hello}</h1>
@@ -15,12 +23,7 @@ const Index = ({ data: { allMdx } }) => {
       <hr style={{ margin: `2rem 0` }} />
       <ul className="post-list">
         {allMdx.edges.map(({ node: post }) => (
-          <li key={`${post.frontmatter.title}-${post.fields.locale}`}>
-            <LocalizedLink to={`/${post.parent.relativeDirectory}`}>
-              {post.frontmatter.title}
-            </LocalizedLink>
-            <div>{post.frontmatter.date}</div>
-          </li>
+          <GridContainer post={post} />
         ))}
       </ul>
     </>
