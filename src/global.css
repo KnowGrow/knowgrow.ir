@@ -46,19 +46,24 @@ body {
 }
 
 .post-list {
-  background-color: aqua;
+  border: 10px;
   list-style: none;
   padding-left: 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-left: 2%;
+
 }
 
-.post-list li {
+.post-list div {
+
   font-size: 1.25rem;
   margin: 1rem 0;
-  display: flex;
   justify-content: space-between;
 }
 
-.post-list li div {
+.post-list div div {
+  background-color: aquamarine;
   font-style: italic;
   font-size: 1.1rem;
 }
