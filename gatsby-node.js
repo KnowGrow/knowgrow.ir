@@ -37,15 +37,19 @@ exports.onCreatePage = ({ page, actions }) => {
     })
   })
 }
-
+// gatsby-node.js
+const { fmImagesToRelative } = require('gatsby-remark-relative-images');
+ 
 // As you don't want to manually add the correct languge to the frontmatter of each file
 // a new node is created automatically with the filename
 // It's necessary to do that -- otherwise you couldn't filter by language
 exports.onCreateNode = ({ node, actions }) => {
+  fmImagesToRelative(node);
   const { createNodeField } = actions
 
   // Check for "Mdx" type so that other files (e.g. images) are exluded
   if (node.internal.type === `Mdx`) {
+ 
     // Use path.basename
     // https://nodejs.org/api/path.html#path_path_basename_path_ext
     const name = path.basename(node.fileAbsolutePath, `.mdx`)
