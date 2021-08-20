@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkknowgrow=self.webpackChunkknowgrow||[]).push([[230],{199:function(e,n,a){a.r(n);var s=a(294);n.default=function(){return s.createElement("div",{className:"h1"},s.createElement("h1",{className:"box"},"Hello Boys"))}}}]);
+//# sourceMappingURL=component---src-pages-index-jsx-b5170eeec40e7c8a36ef.js.map
